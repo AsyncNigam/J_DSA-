@@ -1,0 +1,21 @@
+package Queue.video1;
+
+import java.util.LinkedList;
+import java.util.Queue;
+
+public class winner_of_circular_game {
+    class Solution {
+    public int findTheWinner(int n, int k) {
+        Queue<Integer> q=new LinkedList<>();
+        for(int i=1;i<=n;i++)q.add(i);
+
+        while(q.size()!=1){
+            for(int i=1;i<k;i++) q.add(q.remove());
+            q.remove();
+        }
+
+        return q.peek();
+
+    }
+}
+}
