@@ -1,5 +1,8 @@
 package Queue.video2;
 
+
+// here we are creating a circular array with initial capacity, then if we add more than that capacity it will show error , there will be 2 pointers f , r . f will point to the starting of the Queue , r will point to the end of the Queue . add we add element add in array indexed position and then r++ , if we want to remove() then f++, then again to fill the previous indexes before the f , we maintain a variable size to know the size of the queue , if size is not equals with capacity but the r is last index of array t means we have removed some elements . for that the f has been increased . for that we bring again r to initial then again r++ will be done when elements are being added .
+
 class CircularQueue {
     int[] arr;
     int f;
