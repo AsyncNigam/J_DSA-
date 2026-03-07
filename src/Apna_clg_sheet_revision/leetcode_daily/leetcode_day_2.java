@@ -1,6 +1,6 @@
-package Apna_clg_sheet_revision;
+package Apna_clg_sheet_revision.leetcode_daily;
 
-public class leetcode_1784 {
+public class leetcode_day_2 {
 
 //    Given a binary string s ​​​​​without leading zeros, return true​​​ if s contains at most one contiguous segment of ones. Otherwise, return false.
 

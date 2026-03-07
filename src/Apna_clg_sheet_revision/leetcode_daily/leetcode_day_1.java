@@ -1,6 +1,10 @@
-package Apna_clg_sheet_revision;
+package Apna_clg_sheet_revision.leetcode_daily;
 
-public class minimum_changes_to_make_altering_string {
+public class  leetcode_day_1{
+
+//    https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string/description/
+
+
 
 //    this is my brute force approach
 
