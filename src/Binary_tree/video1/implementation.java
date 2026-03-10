@@ -11,7 +11,7 @@ class Node {
 }
 
 public class implementation {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         //      3
         //    /   \
         //   -4     2
@@ -38,6 +38,9 @@ public class implementation {
         System.out.println(max_val(a));
         System.out.println(min_val(a));
 
+//        display(a);
+
+        System.out.println(levels(a));
     }
 
     private static void display(Node root){
@@ -49,9 +52,9 @@ public class implementation {
 //        display(root.right);
 
 //        for inOrder
-//        display(root.left);
-//        System.out.print(root.val+" ");
-//        display(root.right);
+        display(root.left);
+        System.out.print(root.val+" ");
+        display(root.right);
 
 //        for postOrder
 //        display(root.left);
@@ -96,6 +99,12 @@ public class implementation {
     static int min_val(Node root){
         if(root==null)return Integer.MAX_VALUE;
         return Math.min(root.val, Math.min(min_val(root.left),min_val(root.right)));
+    }
+
+//    for the levels of binary tree
+    static int levels(Node root){
+        if(root==null)return 0;
+        return 1+Math.max(levels(root.left),levels(root.right));
     }
 
 }
