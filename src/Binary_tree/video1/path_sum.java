@@ -1,10 +1,8 @@
 package Binary_tree.video1;
 
 public class path_sum {
-
-
     class Solution {
-        public boolean hasPathSum(TreeNode root, int targetSum) {
+        public boolean hasPathSum(TreeNode root, int targetSum){
 
             if(root==null)return false; //if we have reached leaf return false , because we have to find the path from root to leaf node if root has no leaf i.e. root is leaf return false although if equals to targetSum
 
