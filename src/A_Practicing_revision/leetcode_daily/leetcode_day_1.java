@@ -1,4 +1,4 @@
-package Apna_clg_sheet_revision.leetcode_daily;
+package A_Practicing_revision.leetcode_daily;
 
 public class  leetcode_day_1{
 

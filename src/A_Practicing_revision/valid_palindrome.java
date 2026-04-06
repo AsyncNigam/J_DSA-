@@ -1,4 +1,4 @@
-package Apna_clg_sheet_revision;
+package A_Practicing_revision;
 
 //https://leetcode.com/problems/valid-palindrome/
 

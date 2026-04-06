@@ -1,4 +1,4 @@
-package Apna_clg_sheet_revision;
+package A_Practicing_revision;
 
 public class container_with_most_water {
 //brute force approach is with O(n^2)

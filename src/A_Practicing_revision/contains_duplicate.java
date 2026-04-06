@@ -1,4 +1,4 @@
-package Apna_clg_sheet_revision;
+package A_Practicing_revision;
 
 public class contains_duplicate {
 //    brute force method with time complexity O(n^2)

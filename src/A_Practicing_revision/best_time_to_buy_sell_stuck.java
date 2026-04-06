@@ -1,4 +1,4 @@
-package Apna_clg_sheet_revision;
+package A_Practicing_revision;
 
 public class best_time_to_buy_sell_stuck {
 

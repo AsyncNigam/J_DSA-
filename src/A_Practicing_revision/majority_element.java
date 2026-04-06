@@ -1,6 +1,4 @@
-package Apna_clg_sheet_revision;
-
-import java.util.Arrays;
+package A_Practicing_revision;
 
 public class majority_element {
 

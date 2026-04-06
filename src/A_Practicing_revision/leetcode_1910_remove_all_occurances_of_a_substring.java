@@ -1,4 +1,4 @@
-package Apna_clg_sheet_revision;
+package A_Practicing_revision;
 
 public class leetcode_1910_remove_all_occurances_of_a_substring {
 
