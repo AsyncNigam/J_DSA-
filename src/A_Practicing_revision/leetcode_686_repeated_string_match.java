@@ -8,8 +8,12 @@ public class leetcode_686_repeated_string_match {
             int count=1;
             while(sb.length()<=a.length() + b.length()){
                 if(sb.indexOf(b)!=-1)return count;
+
                 sb.append(a);
                 count++;
+
+                if(sb.indexOf(b)!=-1)return count;
+                
             }
 
 
