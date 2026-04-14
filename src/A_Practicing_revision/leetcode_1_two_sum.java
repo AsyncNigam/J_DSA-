@@ -25,6 +25,7 @@ class Solution {
             }
             map.put(first,i);
         }
+
         return new int[]{-1,-1};
     }
 }
