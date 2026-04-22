@@ -45,7 +45,7 @@ public class ques_08_unique_paths {
 //    }
 //    int path(int r,int c,int m,int n,int[][] dp){
 //        if(r>=m||c>=n)return 0;
-//        if(r==m-1 || c==n-1)return 1;
+//        if(r==m-1 && c==n-1)return 1;
 //        if(dp[r][c]!=-1)return dp[r][c];
 //        int rways=path(r+1,c,m,n,dp);
 //        int lways=path(r,c+1,m,n,dp);
