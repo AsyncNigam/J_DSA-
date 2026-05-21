@@ -23,8 +23,12 @@ public class q9_print_lcs {
             String str="";
             int i=m,j=n;
             while(i>0 && j>0){
-                if(a.charAt(i-1)==b.charAt(j-1))str=a.charAt(i-1)+str;
-                if(dp[i-1][j]>dp[i][j-1])i--;
+                if(a.charAt(i-1)==b.charAt(j-1)){
+                    str=a.charAt(i-1)+str;
+                    i--;
+                    j--;
+                }
+                else if(dp[i-1][j]>dp[i][j-1])i--;
                 else j--;
             }
             System.out.println(str);

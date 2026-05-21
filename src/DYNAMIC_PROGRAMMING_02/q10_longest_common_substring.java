@@ -1,5 +1,7 @@
 package DYNAMIC_PROGRAMMING_02;
 
+//https://www.geeksforgeeks.org/problems/longest-common-substring1452/1
+
 public class q10_longest_common_substring {
 //    here we are going to find out the longest common substring not subsequence, subsequence like should be in sequential manner not need that should be adjacent,
 //    substring means should be in the string common
