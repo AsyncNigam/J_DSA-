@@ -1,0 +1,37 @@
+package DYNAMIC_PROGRAMMING_02;
+
+public class q9_print_lcs {
+//    lcs longest common subsequence
+
+//    here we are going to print the lcs rather than giving the total number of characters in the lcs
+
+//    printing the lcs , is nothing but tabulation +length of lcs
+
+//    here we can not apply space optimization in lcs during tabulation , because we will go backward also when needed
+
+    class Solution {
+        public int longestCommonSubsequence(String a, String b) {
+            int m=a.length();
+            int n=b.length();
+            int[][] dp=new int[m+1][n+1];
+            for(int i=1;i<=m;i++){
+                for(int j=1;j<=n;j++){
+                    if(a.charAt(i-1)==b.charAt(j-1)) dp[i][j]=1+dp[i-1][j-1];
+                    else  dp[i][j]=Math.max(dp[i-1][j],dp[i][j-1]);
+                }
+            }
+            String str="";
+            int i=m,j=n;
+            while(i>0 && j>0){
+                if(a.charAt(i-1)==b.charAt(j-1))str=a.charAt(i-1)+str;
+                if(dp[i-1][j]>dp[i][j-1])i--;
+                else j--;
+            }
+            System.out.println(str);
+            return dp[m][n];
+        }
+
+    }
+
+
+}
