@@ -1,6 +1,4 @@
-package DYNAMIC_PROGRAMMING_02;
-
-import java.util.ArrayList;
+package A_Practicing_revision;
 
 public class q5_rotate_string {
 //    my approach

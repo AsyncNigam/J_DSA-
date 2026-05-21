@@ -2,7 +2,7 @@ package DYNAMIC_PROGRAMMING_02;
 
 
 public class q7_lcs_tabulation {
-//    longest common subsequence with tabulation
+//    longest common subsequence with tabulation just by conversion of the memoization
 
 //class Solution {
 //    public int longestCommonSubsequence(String a, String b) {
@@ -11,7 +11,9 @@ public class q7_lcs_tabulation {
 //        int[][] dp=new int[m][n];
 //        for(int i=0;i<m;i++){
 //            for(int j=0;j<n;j++){
+
     // we are adding these because if i==0 or j==0 and we -1 from them that will give array out of bound
+
 //                int p=(i>=1 && j>=1) ? dp[i-1][j-1] : 0;
 //                int q=(i>=1) ? dp[i-1][j] : 0;
 //                int r=(j>=1) ? dp[i][j-1] : 0;
@@ -26,7 +28,11 @@ public class q7_lcs_tabulation {
 //}
 
 
-//    the array out of bound problem can be solved by maintaining an extra array
+//    the array out of bound problem can be solved by maintaining an extra index of the array
+//    like due to 0 indices in previous case was giving array out of bound error that's why we were adding the condition
+//    now we will add an extra indices of 0 , which we will leave
+
+
 //class Solution {
 //    public int longestCommonSubsequence(String a, String b) {
 //        int m=a.length();
