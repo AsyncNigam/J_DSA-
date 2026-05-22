@@ -3,6 +3,8 @@ package A_Practice;
 import java.util.HashMap;
 import java.util.Map;
 
+//https://leetcode.com/problems/set-mismatch/description/?envType=problem-list-v2&envId=dsa-linear-shoal-array-ii
+
 public class q6_set_mismatch {
 //    this will tle because the time complexity of the function containsValue() is O(k)
 //    class Solution {
