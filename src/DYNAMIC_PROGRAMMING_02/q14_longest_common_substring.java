@@ -5,8 +5,6 @@ public class q14_longest_common_substring {
 
 //    this is almost same as normal palindromic substring but here we are keeping a track wheather greater string at last we will get
 
-
-
     class Solution {
         public String longestPalindrome(String s) {
             int n=s.length();
