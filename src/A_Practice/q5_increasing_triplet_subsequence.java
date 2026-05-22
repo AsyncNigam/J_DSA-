@@ -1,5 +1,9 @@
 package A_Practice;
 
+//youtube video solution https://youtu.be/yEFlGWOVH8g?si=8jz_3cWXrtURc_3T
+//leetcode link https://leetcode.com/problems/increasing-triplet-subsequence/description/?envType=study-plan-v2&envId=leetcode-75
+
+
 public class q5_increasing_triplet_subsequence {
 
 //    this is the brute force approach with t.c. O(n^3)
