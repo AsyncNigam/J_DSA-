@@ -1,9 +1,6 @@
 package Binary_Search_Tree;
 
-import java.util.ArrayList;
-import java.util.List;
-
-public class kth_smallest_element_bst {
+public class q6_kth_smallest_element_bst {
 
 // because inorder in binary search tree is sorted in increasing order
 
@@ -25,21 +22,6 @@ public class kth_smallest_element_bst {
 
 //    without any extra arraylist
 
-    /**
-     * Definition for a binary tree node.
-     * public class TreeNode {
-     *     int val;
-     *     TreeNode left;
-     *     TreeNode right;
-     *     TreeNode() {}
-     *     TreeNode(int val) { this.val = val; }
-     *     TreeNode(int val, TreeNode left, TreeNode right) {
-     *         this.val = val;
-     *         this.left = left;
-     *         this.right = right;
-     *     }
-     * }
-     */
     class Solution {
         int k2;
         int ans;
