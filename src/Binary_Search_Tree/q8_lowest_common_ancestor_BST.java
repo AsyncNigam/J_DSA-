@@ -2,7 +2,7 @@ package Binary_Search_Tree;
 
 //https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
 
-public class lowest_common_ancestor_BST {
+public class q8_lowest_common_ancestor_BST {
 
 //    go from root if root lie between p and q return , Lowest common ancestor
     class Solution {
