@@ -5,7 +5,7 @@ public class q6_kth_smallest_element_bst {
 // because inorder in binary search tree is sorted in increasing order
 
 //    class Solution {
-//        public int kthSmallest(TreeNode root, int k) {
+//        public int kithSmallest(TreeNode root, int k) {
 //            List<Integer> ans = new ArrayList();
 //            inOrder(root, ans);
 //            return ans.get(k - 1);

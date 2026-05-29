@@ -1,6 +1,6 @@
 package Binary_Search_Tree;
 
-public class q1_find_minimu_mximum_node_in_bst {
+public class q1_find_minimum_mximum_node_in_bst {
     static void main() {
         TreeNode a=new TreeNode(5);
         TreeNode b=new TreeNode(10);
@@ -32,13 +32,13 @@ public class q1_find_minimu_mximum_node_in_bst {
         while(temp.left!=null){
             temp=temp.left;
         }
-        return a;
+        return temp;
     }
     static TreeNode max_BST(TreeNode a){
         TreeNode temp=a;
         while(temp.right!=null){
             temp=temp.right;
         }
-        return a;
+        return temp;
     }
 }
