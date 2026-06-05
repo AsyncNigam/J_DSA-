@@ -1,4 +1,4 @@
-package HashMaps_And_sets;
+package HashMaps_And_sets.HashSets_TreeSets;
 
 import java.util.HashSet;
 // https://leetcode.com/problems/k-diff-pairs-in-an-array/

@@ -1,4 +1,4 @@
-package HashMaps_And_sets;
+package HashMaps_And_sets.HashSets_TreeSets;
 
 import java.util.HashSet;
 //https://www.geeksforgeeks.org/problems/find-distinct-elements-1614078205/1

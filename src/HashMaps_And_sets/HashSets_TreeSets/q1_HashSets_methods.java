@@ -1,17 +1,16 @@
-package HashMaps_And_sets;
+package HashMaps_And_sets.HashSets_TreeSets;
 
 import java.util.HashSet;
-import java.util.Set;
 import java.util.TreeSet;
 
-public class q1_HashSets_internal {
+public class q1_HashSets_methods {
     static void main() {
         HashSet<Integer> set=new HashSet<>();  // it is unordered when print will be in random order ,ime complexity for inserting , checking , deleting is O(1) constant
 
-        TreeSet<Integer> tree_set=new TreeSet<>();  // it is ordered but time complexity for inserting , checking , deleting is O(log n)
+            TreeSet<Integer> tree_set=new TreeSet<>();  // it is ordered but time complexity for inserting , checking , deleting is O(log n)
 
-// can be
-// Set<Integer> set =new HashSet<>();
+//        can be
+//        Set<Integer> set =new HashSet<>();
 //        as Set is an interface it can not have object , HashSet implements Set
 
 
@@ -24,9 +23,7 @@ public class q1_HashSets_internal {
         System.out.println(set.size()); // will give size
 
 
-
         System.out.println(set.contains(25)); // to check that it contains element or not , contains() returns true/false depending upon element present in the set or not
-
 
 
         System.out.println(set.contains(72));
@@ -50,6 +47,14 @@ public class q1_HashSets_internal {
 
         System.out.println(set.remove(999));
 
+
+        // to traverse in  the set , we use for each loop not normal for loop because we do not know what is the index
+//      in for each loop we can not update the value , we can just pick and print or whatever for each loop only picks the elements can not update them
+        for(int el:set) System.out.print(" "+el);
+
+
+//        to clear the enire set .clear()
+        set.clear();
 
     }
 }

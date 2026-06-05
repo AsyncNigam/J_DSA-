@@ -1,4 +1,4 @@
-package HashMaps_And_sets;
+package HashMaps_And_sets.HashSets_TreeSets;
 
 import java.util.ArrayList;
 import java.util.HashSet;
