@@ -1,7 +1,5 @@
 package HashMaps_And_sets.Maps;
 
-import org.w3c.dom.Node;
-
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.LinkedList;
@@ -41,7 +39,6 @@ public class q6_top_view_of_binary_tree {
                 minDist = Math.min(minDist, dist);
                 maxDist = Math.max(maxDist, dist);
                 if (!map.containsKey(dist))map.put(dist, node.data);
-
                 if (node.left != null)q.add(new Pair(node.left, dist - 1));
                 if (node.right != null)q.add(new Pair(node.right, dist + 1));
 
