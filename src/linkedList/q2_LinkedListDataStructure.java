@@ -52,7 +52,7 @@ class Linkedlist{ //it is user defined data structure ,
             System.out.println("LinkedList is empty");
             return;
         }
-        head.next=head;
+        head = head.next;
         //directly move your head to next element simple .
         // no need the change the reference of the previous node
 

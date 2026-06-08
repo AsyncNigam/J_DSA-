@@ -1,6 +1,6 @@
 package linkedList;
 
-public class deleteFromSortedLL {
+public class q8_deleteFromSortedLL {
     static void main() {
 
     }

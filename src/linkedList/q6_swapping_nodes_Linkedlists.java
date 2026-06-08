@@ -1,6 +1,8 @@
 package linkedList;
 
-public class swapping_nodes_Linkedlists {
+//https://leetcode.com/problems/swapping-nodes-in-a-linked-list/
+
+public class q6_swapping_nodes_Linkedlists {
     static void main() {
 
     }

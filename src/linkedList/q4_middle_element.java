@@ -1,6 +1,6 @@
 package linkedList;
 
-public class middle_element {
+public class q4_middle_element {
     public ListNode middleNode(ListNode head) {
 
 //      this is a 2 traverse technique technically same time complexity as of slow fast but not the best one

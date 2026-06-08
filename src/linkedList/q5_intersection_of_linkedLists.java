@@ -1,6 +1,6 @@
 package linkedList;
 
-public class intersection_of_linkedLists {
+public class q5_intersection_of_linkedLists {
     static void main() {
 
     }

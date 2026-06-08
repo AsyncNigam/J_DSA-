@@ -1,6 +1,6 @@
 package linkedList;
 
-public class RotateList {
+public class q9_RotateList {
 
         static void main() {
 

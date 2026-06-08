@@ -1,6 +1,6 @@
 package linkedList;
 
-public class DisplayLinkedList {
+public class q3_DisplayLinkedList {
     static void main() {
 //        as we are in the same package linkedlist
 //        we can directly use the class without any implementation

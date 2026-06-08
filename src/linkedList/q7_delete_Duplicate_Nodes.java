@@ -1,6 +1,6 @@
 package linkedList;
 
-public class delete_Duplicate_Nodes {
+public class q7_delete_Duplicate_Nodes {
     static void main() {
 
     }
