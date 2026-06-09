@@ -35,7 +35,7 @@ public class q8_copy_list_with_random_pointer {
             Node b=deepCopy(a);
             Node tempA=a;
             Node tempB=b;
-            HashMap<Node, Node> map=new HashMap<>();
+            HashMap<Node, Node> map=new HashMap<>(); //  <a,b>
             while(tempA!=null){
                 map.put(tempA, tempB);
                 tempA=tempA.next;
