@@ -3,7 +3,7 @@ package Heap;
 import java.util.Collections;
 import java.util.PriorityQueue;
 
-public class kth_smallest_gfg {
+public class q2_kth_smallest_gfg {
     class Solution {
         public int kthSmallest(int[] arr, int k) {
             // Code here
