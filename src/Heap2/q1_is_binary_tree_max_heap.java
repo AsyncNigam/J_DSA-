@@ -1,5 +1,7 @@
 package Heap2;
 
+//https://www.geeksforgeeks.org/problems/is-binary-tree-heap/1
+
 public class q1_is_binary_tree_max_heap {
     class Node {
         int data;
