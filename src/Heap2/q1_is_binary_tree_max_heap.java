@@ -1,16 +1,16 @@
 package Heap2;
 
 //https://www.geeksforgeeks.org/problems/is-binary-tree-heap/1
-
-public class q1_is_binary_tree_max_heap {
-    class Node {
-        int data;
-        Node left, right;
-        Node(int d) {
-            data = d;
-            left = right = null;
-        }
+class Node {
+    int data;
+    Node left, right;
+    Node(int d) {
+        data = d;
+        left = right = null;
     }
+}
+public class q1_is_binary_tree_max_heap {
+
     class Solution {
         static int size;
         public boolean isHeap(Node root) {
