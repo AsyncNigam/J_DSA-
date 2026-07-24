@@ -47,6 +47,7 @@ class Solution {
         for(int i=0;i<nums.length;i++)  if(nums[i]!=0) nums[non0++]=nums[i];
         while(non0<nums.length)nums[non0++]=0;
     }
+
 }
 }
 
