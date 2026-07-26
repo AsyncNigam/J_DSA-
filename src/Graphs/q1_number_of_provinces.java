@@ -30,6 +30,8 @@ public class q1_number_of_provinces {
                         q.add(j);
                         vis[j]=true;
                     }
+
+
                 }
             }
         }
