@@ -1,4 +1,4 @@
-package Zeus_stroke;
+package Zeus_stroke.q1_arrays;
 
 public class q8_count_odd_numbers_in_an_interval_range {
 //    https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/description/

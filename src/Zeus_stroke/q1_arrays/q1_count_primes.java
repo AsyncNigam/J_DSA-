@@ -1,4 +1,4 @@
-package Zeus_stroke;
+package Zeus_stroke.q1_arrays;
 
 public class q1_count_primes {
 

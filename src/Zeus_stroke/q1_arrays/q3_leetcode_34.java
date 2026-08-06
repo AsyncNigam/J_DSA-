@@ -1,4 +1,4 @@
-package Zeus_stroke;
+package Zeus_stroke.q1_arrays;
 
 public class q3_leetcode_34 {
     class Solution {

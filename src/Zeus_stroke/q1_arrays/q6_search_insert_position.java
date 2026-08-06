@@ -1,6 +1,6 @@
-package Zeus_stroke;
+package Zeus_stroke.q1_arrays;
 
-public class q5_search_insert_position {
+public class q6_search_insert_position {
     class Solution {
         public int searchInsert(int[] nums, int target) {
             int s=0;
