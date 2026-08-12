@@ -38,7 +38,7 @@ public class q8_add_two_numbers_2 {
                 carry=sum/10;
                 t.next=temp;
                 t=t.next;
-                t1=t1.next;
+                t2=t2.next;
             }
 
             if(carry!=0){
@@ -60,7 +60,7 @@ public class q8_add_two_numbers_2 {
                 p=c;
                 c=f;
             }
-            return c;
+            return p;
         }
     }
 }
