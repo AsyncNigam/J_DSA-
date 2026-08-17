@@ -1,20 +1,17 @@
-package Stack.video3;
+package Zeus_stroke.q4_stack;
 
 import java.util.Stack;
 
-public class Next_greater_element2 {
+public class q7_next_greater_element {
     class Solution {
         public int[] nextGreaterElements(int[] nums) {
-            Stack<Integer> st=new Stack<Integer>();
+            Stack<Integer> st=new Stack<>();
+            for(int el:nums)st.push(el);
+
             int n=nums.length;
             int[] ans=new int[n];
-
             for(int i=n-1;i>=0;i--){
-                st.push(nums[i]);
-            }
-
-            for(int i=n-1;i>=0;i--){
-                while(!st.isEmpty() && nums[i]>=st.peek())st.pop();
+                while(!st.isEmpty() && st.peek()<=nums[i])st.pop();
                 if(st.isEmpty())ans[i]=-1;
                 else ans[i]=st.peek();
                 st.push(nums[i]);
