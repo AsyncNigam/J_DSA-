@@ -4,6 +4,8 @@ import linkedList.ListNode;
 
 import java.util.Stack;
 
+//https://leetcode.com/problems/remove-nodes-from-linked-list/
+
 public class Remove_nodes_stack {
     class Solution {
         public ListNode removeNodes(ListNode head) {
