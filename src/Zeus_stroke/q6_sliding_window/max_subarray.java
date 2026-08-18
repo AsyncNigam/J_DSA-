@@ -1,6 +1,6 @@
-package Zeus_stroke;
+package Zeus_stroke.q6_sliding_window;
 
-public class q6_sliding_window {
+public class max_subarray {
     class Solution {
         public int maxSubArray(int[] nums) {
             int sum=nums[0];

@@ -4,6 +4,7 @@ import java.util.HashMap;
 
 public class q1_count_elements_with_maximum_frequencies {
     class Solution {
+
         public int maxFrequencyElements(int[] nums) {
             HashMap<Integer, Integer> map=new HashMap<>();
             for(int i=0;i<nums.length;i++){
