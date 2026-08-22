@@ -4,8 +4,9 @@ public class q9_distribute_elements_into_two_arrays_1 {
     class Solution {
         public int[] resultArray(int[] nums) {
             int n=nums.length;
-            int[] arr1=new int[n/2];
-            int[] arr2=new int[n/2];
+
+            int[] arr1=new int[n];
+            int[] arr2=new int[n];
 
             arr1[0]=nums[0];
             arr2[0]=nums[1];
@@ -14,23 +15,23 @@ public class q9_distribute_elements_into_two_arrays_1 {
             int k=1;
 
             for(int i=2;i<n;i++){
-                if(arr1[j]>arr2[k]){
-                    arr1[j+1]=nums[i];
-                    j++;
+                if(arr1[j-1]>arr2[k-1]){
+                    arr1[j++]=nums[i];
+
                 }
-                else{
-                    arr2[k+1]=nums[i];
-                    k++;
+                else {
+                    arr2[k++]=nums[i];
                 }
             }
 
+
             int[] result=new int[n];
-            int i=0;
-            for(int el:arr1){
-                nums[i++]=el;
+            int idx=0;
+            for(int i=0;i<j;i++){
+                result[idx++]=arr1[i];
             }
-            for(int el:arr2){
-                nums[i++]=el;
+            for(int i=0;i<k;i++){
+                result[idx++]=arr2[i];
             }
 
             return result;
