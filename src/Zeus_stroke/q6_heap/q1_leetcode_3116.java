@@ -122,6 +122,7 @@ public class q1_leetcode_3116 {
             return result;
         }
 
+
         private long lcm(long a, long b) {
             return a / gcd(a, b) * b;
         }
