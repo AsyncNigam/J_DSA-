@@ -3,8 +3,9 @@ package Zeus_stroke.q4_stack;
 import java.util.ArrayList;
 import java.util.Stack;
 
-public class q6_next_greater_elements {
-//    https://www.geeksforgeeks.org/problems/next-larger-element-1587115620/1
+//https://www.geeksforgeeks.org/problems/next-larger-element-1587115620/1
+
+public class q6_next_greater_element_gfg {
     class Solution {
         public ArrayList<Integer> nextLargerElement(int[] arr) {
             // code here
