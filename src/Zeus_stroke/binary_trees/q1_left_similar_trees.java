@@ -1,10 +1,10 @@
-package Zeus_stroke;
+package Zeus_stroke.binary_trees;
 
 import Binary_Search_Tree.TreeNode;
 
 import java.util.ArrayList;
 
-public class q9_left_similar_trees {
+public class q1_left_similar_trees {
     class Solution {
         public boolean leafSimilar(TreeNode root1, TreeNode root2) {
             ArrayList<Integer> arr1=new ArrayList<>();
