@@ -8,7 +8,7 @@ public class q1_number_of_privinces {
             boolean[] visit=new boolean[n];
             for(int i=0;i<n;i++){
                 if(!visit[i]){
-                    dfs(i,adj,visit);
+                    dfs(i,adj,visit);  // recursion but there is no need of base condition because it is running in for loop constraint so the recursion is like acting as a loop
                     count++;
                 }
             }
