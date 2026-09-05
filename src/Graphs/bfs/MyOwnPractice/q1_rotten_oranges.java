@@ -1,4 +1,4 @@
-package Graphs.MyOwnPractice;
+package Graphs.bfs.MyOwnPractice;
 
 import java.util.ArrayDeque;
 import java.util.Queue;
