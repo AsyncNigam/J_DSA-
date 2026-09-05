@@ -23,10 +23,10 @@ public class q1_number_of_provinces {
             vis[i]=true;
             Queue<Integer> q=new LinkedList<>();
             q.add(i);
-            while(q.size()>0){
+            while(!q.isEmpty()){
                 int front=q.remove();
                 for(int j=0;j<adj.length;j++){
-                    if(adj[front][j]==1 && vis[j]==false){
+                    if(adj[front][j]==1 && !vis[j]){
                         q.add(j);
                         vis[j]=true;
                     }
