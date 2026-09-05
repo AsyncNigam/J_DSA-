@@ -7,6 +7,9 @@ import java.util.Queue;
 
 //https://leetcode.com/problems/keys-and-rooms/
 
+//auxiliary space=O(n) beacuse taking an additional visited array and an queue
+
+//time complexity O(no. of nodes + no. of edges)
 public class q2_keys_and_rooms {
     class Solution {
         public boolean canVisitAllRooms(List<List<Integer>> adj) {
