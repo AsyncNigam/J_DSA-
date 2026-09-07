@@ -1,8 +1,8 @@
-package Zeus_stroke.q5_hashmap;
+package Zeus_stroke.basic_questions;
 
 import java.util.*;
 
-public class q6_three_sum {
+public class q5_three_sum {
 
 //    here tc is O(n^2 * log(unique)) it will not give tle but too much high tc
 //    class Solution {
