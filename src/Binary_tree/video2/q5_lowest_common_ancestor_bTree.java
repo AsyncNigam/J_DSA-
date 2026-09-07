@@ -1,6 +1,6 @@
 package Binary_tree.video2;
 
-public class lowest_common_ancestor_bTree {
+public class q5_lowest_common_ancestor_bTree {
 
 //    this approach is of O(n^2) ,
 //    class Solution {

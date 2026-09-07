@@ -1,6 +1,6 @@
 package Binary_tree.video2;
 
-public class diameter_of_binary_tree {
+public class q3_diameter_of_binary_tree {
 
 //    this is a bad approach , here we are doing recursion in recurion , which is not time efficient
 //    The time complexity  is O(n^2)

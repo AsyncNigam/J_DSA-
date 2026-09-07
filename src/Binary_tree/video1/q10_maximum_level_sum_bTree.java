@@ -1,6 +1,6 @@
 package Binary_tree.video1;
 
-public class maximum_level_sum_bTree {
+public class q10_maximum_level_sum_bTree {
 //    my approach by direct implementation of levelOrder traversal
 
 

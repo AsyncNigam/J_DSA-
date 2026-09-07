@@ -1,23 +1,27 @@
 package Binary_tree.video1;
 
-import java.util.*;
 
-public class Binary_tree_zigzag_level_order_traversal {
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Queue;
+
+
+
+//leetcode
+
+public class q9_Binary_tree_level_order_traversal {
+    class Pair {
+        TreeNode node;
+        int level;
+        Pair(TreeNode node,int level) {
+            this.node = node;
+            this.level=level;
+        }
+    }
+
     class Solution {
-
-        class Pair {
-            TreeNode node;
-            int level;
-            Pair(TreeNode node,int level) {
-                this.node = node;
-                this.level=level;
-            }
-        }
-        int levels(TreeNode root){
-            if(root==null)return 0;
-            return 1+Math.max(levels(root.left),levels(root.right));
-        }
-        public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
+        public List<List<Integer>> levelOrder(TreeNode root) {
             if (root == null) return new ArrayList<>();
             List<List<Integer>> list=new ArrayList<>(levels(root));
             for(int i=0;i<levels(root);i++){
@@ -32,11 +36,11 @@ public class Binary_tree_zigzag_level_order_traversal {
                 if(front.node.left!=null)q.add(new Pair(front.node.left,front.level+1));
                 if(front.node.right!=null)q.add(new Pair(front.node.right,front.level+1));
             }
-
-            for(int i=0;i<list.size();i++){
-                if(i%2!=0) Collections.reverse(list.get(i));
-            }
             return list;
+        }
+        int levels(TreeNode root){
+            if(root==null)return 0;
+            return 1+Math.max(levels(root.left),levels(root.right));
         }
     }
 }

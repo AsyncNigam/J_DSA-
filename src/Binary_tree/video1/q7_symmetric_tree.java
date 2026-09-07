@@ -1,6 +1,6 @@
 package Binary_tree.video1;
 
-public class symmetric_tree {
+public class q7_symmetric_tree {
 
 //    my approach
 

@@ -1,6 +1,6 @@
 package Binary_tree.video1;
 
-public class same_tree {
+public class q6_same_tree {
     class Solution {
         public boolean isSameTree(TreeNode p, TreeNode q) {
             if(p==null && q==null)return true;

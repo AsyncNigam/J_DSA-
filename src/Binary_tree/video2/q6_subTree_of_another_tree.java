@@ -1,6 +1,6 @@
 package Binary_tree.video2;
 
-public class subTree_of_another_tree {
+public class q6_subTree_of_another_tree {
     class Solution {
         public boolean isSubtree(TreeNode root, TreeNode subRoot) {
             if(root==null)return false;

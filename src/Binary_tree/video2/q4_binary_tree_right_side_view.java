@@ -2,7 +2,7 @@ package Binary_tree.video2;
 
 import java.util.*;
 
-public class binary_tree_right_side_view {
+public class q4_binary_tree_right_side_view {
 
 //     this is approach 3 , if level of any root> arraylist size then add other wise update
     class Solution {

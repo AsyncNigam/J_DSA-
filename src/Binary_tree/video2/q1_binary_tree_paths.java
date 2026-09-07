@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-public class binary_tree_paths {
+public class q1_binary_tree_paths {
     class Solution {
         List<String> list=new ArrayList<>();
         public List<String> binaryTreePaths(TreeNode root) {

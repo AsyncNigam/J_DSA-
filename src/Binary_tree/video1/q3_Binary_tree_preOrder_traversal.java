@@ -7,7 +7,7 @@ import java.util.Stack;
 
 //https://leetcode.com/problems/binary-tree-preorder-traversal/
 
-public class Binary_tree_preOrder_traversal {
+public class q3_Binary_tree_preOrder_traversal {
 //    class Solution {
 //        public List<Integer> preorderTraversal(TreeNode root) {
 //            List<Integer> ans=new ArrayList<>();

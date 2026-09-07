@@ -1,6 +1,6 @@
 package Binary_tree.video1;
 
-public class path_sum {
+public class q8_path_sum {
     class Solution {
         public boolean hasPathSum(TreeNode root, int targetSum){
 

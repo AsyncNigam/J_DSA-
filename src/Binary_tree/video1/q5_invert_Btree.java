@@ -1,6 +1,6 @@
 package Binary_tree.video1;
 
-public class invert_Btree {
+public class q5_invert_Btree {
 //    https://leetcode.com/problems/invert-binary-tree/
 
     class Solution {

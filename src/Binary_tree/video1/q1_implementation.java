@@ -16,7 +16,7 @@ class Node {
 
 
 
-public class implementation {
+public class q1_implementation {
     static void main(String[] args) {
         //      3
         //    /   \

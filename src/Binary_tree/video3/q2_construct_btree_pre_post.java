@@ -1,6 +1,6 @@
 package Binary_tree.video3;
 
-public class construct_btree_pre_post {
+public class q2_construct_btree_pre_post {
     class Solution {
         public TreeNode constructFromPrePost(int[] preorder, int[] postorder) {
             int n=preorder.length;

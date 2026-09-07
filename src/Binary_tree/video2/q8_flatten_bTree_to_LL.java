@@ -1,8 +1,6 @@
 package Binary_tree.video2;
 
-import java.util.ArrayList;
-
-public class flatten_bTree_to_LL {
+public class q8_flatten_bTree_to_LL {
 
 
 //    by extra arrayList

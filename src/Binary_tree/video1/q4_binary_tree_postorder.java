@@ -3,7 +3,7 @@ package Binary_tree.video1;
 import java.util.ArrayList;
 import java.util.List;
 
-public class binary_tree_postorder {
+public class q4_binary_tree_postorder {
     class Solution {
         public List<Integer> postorderTraversal(TreeNode root) {
             List<Integer> ans=new ArrayList<>();
