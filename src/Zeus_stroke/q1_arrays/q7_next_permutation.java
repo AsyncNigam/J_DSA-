@@ -1,4 +1,4 @@
-package Zeus_stroke.basic_questions;
+package Zeus_stroke.q1_arrays;
 
 public class q7_next_permutation {
     class Solution {

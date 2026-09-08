@@ -1,4 +1,4 @@
-package Zeus_stroke.basic_questions;
+package Zeus_stroke.q1_arrays;
 
 import java.util.*;
 
