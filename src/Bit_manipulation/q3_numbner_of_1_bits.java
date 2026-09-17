@@ -1,4 +1,4 @@
-package Zeus_stroke.q12_bit_manipulation;
+package Bit_manipulation;
 
 public class q3_numbner_of_1_bits {
     class Solution {

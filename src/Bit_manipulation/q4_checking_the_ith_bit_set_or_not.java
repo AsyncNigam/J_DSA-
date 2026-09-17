@@ -1,4 +1,4 @@
-package Zeus_stroke.q12_bit_manipulation;
+package Bit_manipulation;
 
 public class q4_checking_the_ith_bit_set_or_not {
 //    Problem Statement: Given two integers n and i, return true if the ith bit in the binary representation of n (counting from the least significant bit, 0-indexed) is set (i.e., equal to 1). Otherwise, return false.

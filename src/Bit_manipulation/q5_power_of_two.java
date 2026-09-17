@@ -1,4 +1,4 @@
-package Zeus_stroke.q12_bit_manipulation;
+package Bit_manipulation;
 
 public class q5_power_of_two {
 
