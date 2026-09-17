@@ -1,4 +1,4 @@
-package Zeus_stroke.bit_manipulation;
+package Zeus_stroke.q12_bit_manipulation;
 
 public class q2_counting_bits {
     class Solution {
