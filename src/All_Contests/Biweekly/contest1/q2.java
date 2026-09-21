@@ -1,8 +1,5 @@
 package All_Contests.Biweekly.contest1;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-
 public class q2 {
     class Solution {
 //        public int countSpecialIntegers(int[] nums) {
