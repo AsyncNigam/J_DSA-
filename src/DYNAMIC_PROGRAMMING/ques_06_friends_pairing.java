@@ -11,10 +11,6 @@ public class ques_06_friends_pairing {
 //        }
 //    }
 
-//    for memoization
-
-
-
 
 //    for tabulation, time=O(n), space=O(n)
 class Solution {

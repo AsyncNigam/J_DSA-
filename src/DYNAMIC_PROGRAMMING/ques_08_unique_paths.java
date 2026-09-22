@@ -35,21 +35,23 @@ public class ques_08_unique_paths {
 //    by 2d memoization
 //here also time=O(m*n), space==O(m*n)
 
-//    class Solution {
+//class Solution {
 //    public int uniquePaths(int m, int n) {
+//
 //        int[][] dp=new int[m][n];
-//        for(int i=0;i<m;i++){
-//            Arrays.fill(dp[i],-1);
+//        for(int[] arr: dp){
+//            Arrays.fill(arr,-1);
 //        }
-//        return path(0,0,m,n,dp);
+//        return helper(0, 0, m, n, dp);
 //    }
-//    int path(int r,int c,int m,int n,int[][] dp){
-//        if(r>=m||c>=n)return 0;
-//        if(r==m-1 && c==n-1)return 1;
-//        if(dp[r][c]!=-1)return dp[r][c];
-//        int rways=path(r+1,c,m,n,dp);
-//        int lways=path(r,c+1,m,n,dp);
-//        return dp[r][c]=rways+lways;
+//
+//    int helper(int row, int col, int m, int n, int[][] dp){
+//        if(row >= m || col >= n)return 0;
+//        if(row==m-1 || col==n-1)return 1;
+//        if(dp[row][col]!=-1)return dp[row][col];
+//        int rightways=helper(row,col+1,m,n,dp);
+//        int leftways=helper(row+1,col,m,n,dp);
+//        return dp[row][col] = rightways + leftways;
 //    }
 //}
 
