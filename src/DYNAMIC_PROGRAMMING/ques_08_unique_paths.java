@@ -6,7 +6,9 @@ public class ques_08_unique_paths {
 
 //   unique path with more time complexity
 //    public int uniquePaths(int m,int n){
-//        if(m==1||n==1)return 1;
+
+//        if(m==1||n==1)return 1;  // here we are pointing index as 1 instead of 0 because the starting index shoudl be likel;y m-1, n-1 not m n , we are starting at m or n so that will become likely 1 indexed based
+
 //        return uniquePaths(m-1,n)+uniquePaths(m,n-1);
 //    }
 
