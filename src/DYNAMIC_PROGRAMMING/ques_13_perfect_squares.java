@@ -4,77 +4,78 @@ import java.util.Arrays;
 
 public class ques_13_perfect_squares {
 
-//    brute force by normal recursion but tle
+//    brute force by normal recursion but tle , tc is O(2^n)
 
-//    class Solution {
-//        public int numSquares(int n) {
-//            if(isPerfect(n))return 1;
-//            int min=Integer.MAX_VALUE;
-//            for(int i=1;i<=n/2;i++){
-//                int count=numSquares(i)+numSquares(n-i);
-//                min=Math.min(count,min);
-//            }
-//            return min;
-//        }
-//        public boolean isPerfect(int n){
-//            int sq=(int)Math.sqrt(n);
-//            return sq*sq==n;
-//        }
-//    }
+    class Solution1 {
+        public int numSquares(int n) {
+            if(isPerfect(n))return 1;
+            int min=Integer.MAX_VALUE;
+            for(int i=1;i<=n/2;i++){
+                int count=numSquares(i)+numSquares(n-i);
+                min=Math.min(count,min);
+            }
+            return min;
+        }
+        public boolean isPerfect(int n){
+            int sq=(int)Math.sqrt(n);
+            return sq*sq==n;
+        }
+    }
 
 
-//    by more optimization this will also give tle
+//    by more optimization this will also give tle O(n^2)
 
-//    class Solution {
-//     public int numSquares(int n) {
-//       int[] dp=new int[n+1];
-//       Arrays.fill(dp,-1);
-//        return minSquares(n,dp);
-//    }
-//    public int minSquares(int n,int[] dp) {
-//        if(isPerfect(n))return 1;
-//        if(dp[n]!=-1)return dp[n];
-//        int min=Integer.MAX_VALUE;
-//        for(int i=1;i<=n/2;i++){
-//            int count=minSquares(i,dp)+minSquares(n-i,dp);
-//            min=Math.min(count,min);
-//        }
-//        return dp[n]=min;
-//    }
-//    public boolean isPerfect(int n){
-//        int sq=(int)Math.sqrt(n);
-//        return sq*sq==n;
-//    }
-//}
+    class Solution2 {
+     public int numSquares(int n) {
+       int[] dp=new int[n+1];
+       Arrays.fill(dp,-1);
+        return minSquares(n,dp);
+    }
+    public int minSquares(int n,int[] dp) {
+        if(isPerfect(n))return 1;
+        if(dp[n]!=-1)return dp[n];
+        int min=Integer.MAX_VALUE;
+        for(int i=1;i<=n/2;i++){
+            int count=minSquares(i,dp)+minSquares(n-i,dp);
+            min=Math.min(count,min);
+        }
+        return dp[n]=min;
+    }
+    public boolean isPerfect(int n){
+        int sq=(int)Math.sqrt(n);
+        return sq*sq==n;
+    }
+}
 
 
 
 //    we can more optimize the previous answer , likely changing the for loop range from n/2 to sqr root of n
-//class Solution { // t.c=O(n*n^1/2)
-//    public int numSquares(int n) {
-//        int[] dp=new int[n+1];
-//        Arrays.fill(dp,-1);
-//        return minSquares(n,dp);
-//    }
-//    public int minSquares(int n,int[] dp) {
-//        if(isPerfect(n))return 1;
-//        if(dp[n]!=-1)return dp[n];
-//        int min=Integer.MAX_VALUE;
-//        for(int i=1;i*i<=n;i++){
-//            int count=minSquares(i*i,dp)+minSquares(n-i*i,dp);
-//            min=Math.min(count,min);
-//        }
-//        return dp[n]=min;
-//    }
-//    public boolean isPerfect(int n){
-//        int sq=(int)Math.sqrt(n);
-//        return sq*sq==n;
-//    }
-//}
+class Solution3 { // t.c=O(n*n^1/2) , sc is O(n) due to recursion as previous
+    public int numSquares(int n) {
+        int[] dp=new int[n+1];
+        Arrays.fill(dp,-1);
+        return minSquares(n,dp);
+    }
+    public int minSquares(int n,int[] dp) {
+        if(isPerfect(n))return 1;
+        if(dp[n]!=-1)return dp[n];
+        int min=Integer.MAX_VALUE;
+        for(int i=1;i*i<=n;i++){   // here instead of going to the n/2 we are going upto sqrt of n and in the substraction we are subtracting i*i
+
+            int count=minSquares(i*i,dp)+minSquares(n-i*i,dp);
+            min=Math.min(count,min);
+        }
+        return dp[n]=min;
+    }
+    public boolean isPerfect(int n){
+        int sq=(int)Math.sqrt(n);
+        return sq*sq==n;
+    }
+}
 
 
 //    by tabulation method
-class Solution {
+class Solution4 {
     public int numSquares(int n) {
         int[] dp=new int[n+1];
         dp[0]=0;
