@@ -2,7 +2,7 @@ package DYNAMIC_PROGRAMMING;
 
 public class ques_07_climbing_stairs {
 
-//    without recusion by just normal for loop and O(n) time like solving the Fibonacci with the for loop styel
+//    without recursion by just normal for loop and O(n) time like solving the Fibonacci with the for loop style
 
     class Solution {
         public int climbStairs(int count) {
