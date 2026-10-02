@@ -27,7 +27,7 @@ public class q2_keys_and_rooms {
             q.add(start);
             while(!q.isEmpty()){
                 int front=q.remove();
-                for(int ele : adj.get(front)){
+                for(int ele : adj.get(front)){ // this will give the adjacency list of list like that we will traverse through that
                     if(!visit[ele]){
                         visit[ele]=true;
                         q.add(ele);

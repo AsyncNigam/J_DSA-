@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 public class q1_number_of_provinces {
-//    time complxity worst case= O(n^2), average time complexity for adjacency list= O(v+2E)
+//    time complxity worst case= O(n^2), average time complexity for adjacency list= O(v+2E) v- number of vertices , E number of edges
 //
     class Solution {
         public int findCircleNum(int[][] adj) {
@@ -30,10 +30,6 @@ public class q1_number_of_provinces {
                         q.add(j);
                         vis[j]=true;
                     }
-
-
-
-
                 }
             }
         }
