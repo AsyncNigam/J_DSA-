@@ -6,7 +6,7 @@ import java.util.HashSet;
 
 public class q9_linkedlist_cycle_detection {
 
-//    by Floyd's cycle finding algorithm
+//    by Floyd's cycle finding algorithm time complexity is O(n) , space complexity is 0(1)
         public class Solution {
             public boolean hasCycle(ListNode head) {
                 if(head==null || head.next==null)return false;
@@ -23,7 +23,7 @@ public class q9_linkedlist_cycle_detection {
             }
         }
 
-//        by hashSet method
+//        by hashSet method time complexity is O(n) , space complexity is 0(n), because of the hashset
 public class Solution2 {
     public boolean hasCycle(ListNode head) {
         HashSet<ListNode> set=new HashSet<>();

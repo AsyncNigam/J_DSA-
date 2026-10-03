@@ -5,6 +5,11 @@ import java.util.Arrays;
 import java.util.Queue;
 
 // https://leetcode.com/problems/is-graph-bipartite/description/
+
+//bipartite means can break into set which are not directly connected
+
+// bipartite when we can color each node of a graph either likely blue or green and adjacent nodes must have different colors
+
 public class q5_is_graph_bipartite {
     class Solution {
         static boolean ans;
