@@ -44,5 +44,5 @@ public class q3 {
  * obj.toggle(seat);
  * int param_2 = obj.getTotalTime();
  * int param_3 = obj.getMinTime();
- */©leetcode
+ */
 }
