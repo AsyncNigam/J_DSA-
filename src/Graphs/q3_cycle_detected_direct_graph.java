@@ -11,7 +11,6 @@ public class q3_cycle_detected_direct_graph {
     class Solution {
         public boolean canFinish(int n, int[][] pre) {
             List<List<Integer>> adj=new ArrayList<>();
-            boolean[] visit=new boolean[n];
             int[] indegree=new int[n];
             for(int i=0;i<n;i++)adj.add(new ArrayList<>());
             for(int i=0;i<pre.length;i++){
@@ -20,13 +19,12 @@ public class q3_cycle_detected_direct_graph {
                 indegree[a]++;
             }
 
-            //Kahn's algorithm
+            //Kahn's algorithm, in Kahn's algorithm you do not need visited array
             Queue<Integer> q=new ArrayDeque<>();
             List<Integer> ans=new ArrayList<>();
             for(int i=0;i<n;i++){
                 if(indegree[i]==0){
                     q.add(i);
-                    visit[i]=true;
                 }
             }
             while(q.size()>0){
@@ -36,7 +34,6 @@ public class q3_cycle_detected_direct_graph {
                     indegree[ele]--;
                     if(indegree[ele]==0){
                         q.add(ele);
-                        visit[ele]=true;
                     }
                 }
             }
