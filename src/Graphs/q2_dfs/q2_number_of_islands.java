@@ -1,4 +1,4 @@
-package Graphs.dfs;
+package Graphs.q2_dfs;
 
 public class q2_number_of_islands {
     class Solution {

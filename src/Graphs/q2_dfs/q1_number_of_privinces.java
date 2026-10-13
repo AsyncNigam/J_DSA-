@@ -1,4 +1,4 @@
-package Graphs.dfs;
+package Graphs.q2_dfs;
 
 public class q1_number_of_privinces {
     class Solution {

@@ -1,4 +1,4 @@
-package Graphs.dfs;
+package Graphs.q2_dfs;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package Graphs.bfs;
+package Graphs.q1_bfs;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

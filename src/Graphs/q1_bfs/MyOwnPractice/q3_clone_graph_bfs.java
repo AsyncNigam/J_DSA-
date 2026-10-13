@@ -1,4 +1,4 @@
-package Graphs.bfs.MyOwnPractice;
+package Graphs.q1_bfs.MyOwnPractice;
 
 import java.util.*;
 
