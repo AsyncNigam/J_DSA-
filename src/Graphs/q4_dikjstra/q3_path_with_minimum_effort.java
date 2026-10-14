@@ -1,4 +1,4 @@
-package Graphs.q6_dikjstra;
+package Graphs.q4_dikjstra;
 
 import java.util.Arrays;
 import java.util.PriorityQueue;

@@ -1,4 +1,4 @@
-package Graphs.q7_prim_algorithm_minimum_spaning_tree;
+package Graphs.q5_prim_algorithm_minimum_spaning_tree;
 
 import java.util.PriorityQueue;
 //https://leetcode.com/problems/min-cost-to-connect-all-points/

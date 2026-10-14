@@ -1,9 +1,9 @@
-package Graphs;
+package Graphs.q3_kanh_algorithm_topological_sorting_cycle_detection;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class q5_cycle_detection_directed_graph_by_DFS {
+public class q3_cycle_detection_directed_graph_by_DFS {
     class Solution {
         static boolean ans;
         public boolean canFinish(int n, int[][] pre) {

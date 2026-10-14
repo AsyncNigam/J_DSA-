@@ -1,11 +1,11 @@
-package Graphs;
+package Graphs.q3_kanh_algorithm_topological_sorting_cycle_detection;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Queue;
 
-public class q3_cycle_detected_direct_graph {
+public class q1_cycle_detected_direct_graph {
 //    https://leetcode.com/problems/course-schedule/description/
 
     class Solution {

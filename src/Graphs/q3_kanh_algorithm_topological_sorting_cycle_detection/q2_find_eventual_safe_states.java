@@ -1,8 +1,8 @@
-package Graphs;
+package Graphs.q3_kanh_algorithm_topological_sorting_cycle_detection;
 
 import java.util.*;
 //https://leetcode.com/problems/find-eventual-safe-states/
-public class q4_find_eventual_safe_states {
+public class q2_find_eventual_safe_states {
     class Solution {
         public List<Integer> eventualSafeNodes(int[][] graph) {
             int n=graph.length;
