@@ -7,7 +7,6 @@ public class q3_longest_substring_without_repeating_characters {
         public int lengthOfLongestSubstring(String s) {
             int start=0;
             int end=0;
-            int len=0;
             HashSet<Character> set=new HashSet<>();
             int max_len=0;
 
@@ -18,8 +17,7 @@ public class q3_longest_substring_without_repeating_characters {
                     end++;
                 }
                 else{
-                    len=end-start;
-                    max_len=Math.max(len, max_len);
+                    max_len=Math.max(end-start, max_len);
                     while(s.charAt(start)!=s.charAt(end)){
                         set.remove(s.charAt(start));
                         start++;
@@ -28,8 +26,7 @@ public class q3_longest_substring_without_repeating_characters {
                     end++;
                 }
             }
-            len=end-start;
-            max_len=Math.max(len, max_len);
+            max_len=Math.max(end-start, max_len);
             return max_len;
         }
     }
