@@ -17,6 +17,7 @@ public class q4_max_consecutive_ones_3 {
                 max_len=Math.max(max_len,j-i+1);
                 j++;
             }
+
             return max_len;
         }
     }
