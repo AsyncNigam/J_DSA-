@@ -1,6 +1,6 @@
 package Sliding_window;
 
-public class q4_fruit_into_baskets {
+public class q5_fruit_into_baskets {
 
     class Solution {
         public int totalFruit(int[] fruits) {

@@ -1,6 +1,6 @@
 package Sliding_window;
 
-public class q2_maximum_point {
+public class q2_maximum_points_you_can_obtain_from_cards {
     class Solution {
         public int maxScore(int[] nums, int k) {
             int lsum=0;
