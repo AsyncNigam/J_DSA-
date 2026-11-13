@@ -1,4 +1,4 @@
-package Zeus_stroke.binary_trees;
+package Zeus_stroke.q14_binary_trees;
 
 import Binary_Search_Tree.TreeNode;
 
