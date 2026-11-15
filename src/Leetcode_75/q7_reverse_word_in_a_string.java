@@ -1,6 +1,6 @@
 package Leetcode_75;
 
-public class reverse_word_in_a_string {
+public class q7_reverse_word_in_a_string {
     class Solution {
         public String reverseWords(String s) {
             String[] arr=s.trim().split("\\s+");
