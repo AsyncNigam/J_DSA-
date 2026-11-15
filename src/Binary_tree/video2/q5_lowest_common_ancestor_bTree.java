@@ -33,9 +33,7 @@ public class q5_lowest_common_ancestor_bTree {
         if(left!=null) return left; // both in left
         if(right!=null) return right; //both in right
         return null; // this will not happen because in constrain it is given that p, q must be present in the tree and are not the same , but for safety
-
     }
 }
-
 
 }
