@@ -2,7 +2,7 @@ package DYNAMIC_PROGRAMMING;
 
 import java.util.Arrays;
 
-public class ques_494_target_sum {
+public class ques_18_target_sum {
 
 //by brute force approach normal recursion, not giving me tle but too much lengthy , here time complexity= O(2^n) n=arr length
 
