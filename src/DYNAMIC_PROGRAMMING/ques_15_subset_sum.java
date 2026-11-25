@@ -1,7 +1,7 @@
 package DYNAMIC_PROGRAMMING;
 
 import java.util.Arrays;
-
+// And this one is the exact same question as 0/1 knapsack. If you have done that then skip it.
 public class ques_15_subset_sum {
 
 //https://www.geeksforgeeks.org/problems/subset-sum-problem-1611555638/1
